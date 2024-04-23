@@ -1,0 +1,130 @@
+GET http://localhost:3000/getUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA4NDEyMTQ5fQ.Abjap7jNFrHHWY_2XRK43cORWCLoEp71D8OGbS5Eg6Q
+
+### 
+
+POST http://localhost:3000/signUp
+Content-Type: application/json
+
+{
+    "name":"zoopie",
+    "password":"Tookipoo@1",
+    "email" : "zoopie.jvm@zoopie.com"
+}
+
+###
+
+POST http://localhost:3000/removeAddress
+Content-Type: application/json
+
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA5MDE2MjA2fQ.QVbZwoHQ01ZNfT9sxU02gPT2MwLOGb1_RpPh62MdwHU",
+    "id":"zoopie",
+    "address":"{\n  \"id\": 1,\n  \"quantity\": 1\n}"
+}
+
+###
+
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA5MDE2MjA2fQ.QVbZwoHQ01ZNfT9sxU02gPT2MwLOGb1_RpPh62MdwHU",
+    "order":"{\n  \"id\": 1,\n  \"value\": 500\n}"
+}
+
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name":"zoopie",
+    "password":"Tookipoo@1"
+}
+
+
+###
+
+GET http://localhost:3000/products/Strapp/1/{}
+Content-Type: application/json
+
+
+
+### get single product
+
+
+GET http://localhost:3000/product/1
+Content-Type: application/json
+
+
+####
+
+
+
+GET http://localhost:3000/search/apple
+Content-Type: application/json
+
+
+####
+
+POST http://localhost:3000/addToCart
+Content-Type: application/json
+
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA5MDE2MjA2fQ.QVbZwoHQ01ZNfT9sxU02gPT2MwLOGb1_RpPh62MdwHU",
+    "cart":"[{}]",
+    "uid": "zoopie"
+    
+}
+
+
+###
+
+POST http://localhost:3000/order
+
+Content-Type: application/json
+
+{
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA5MDE2MjA2fQ.QVbZwoHQ01ZNfT9sxU02gPT2MwLOGb1_RpPh62MdwHU",
+    "value" : "500"
+    
+    
+}
+
+
+###
+
+POST http://localhost:3000/product/review
+Content-Type: application/json
+
+{
+    "Authorization"  :"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiem9vcGllIiwicGFzc3dvcmQiOiJUb29raXBvb0AxIiwiaWF0IjoxNzA5MTA5MTIzfQ.OccMBMaN89aN5n_-r5Vn_Y1BgKd1bI7Co2bVLRvmU2M",
+    "id": "1",
+    "review":{
+                "rating": 5 , 
+                "review":"Very good will always recommemend"
+
+            }
+
+}
+
+
+###
+
+GET http://localhost:3000/search/headphone
+
+Content-Type:  application/json
+
+
+
+
+###
+
+# POST http://localhost:3000/uploadData
+# Content-Type: application/json
+
+# {
+
+# }

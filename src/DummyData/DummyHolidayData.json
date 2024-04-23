@@ -1,0 +1,142 @@
+[
+  {
+    "date": "2024-02-13",
+    "id": "1",
+    "eventName": "New Year's Day",
+    "image": "https://plus.unsplash.com/premium_photo-1669992229748-f22bf0475035?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "goto": "/new_year"
+  },
+  {
+    "date": "2024-02-14",
+    "id": "2",
+    "eventName": "Valentine's Day",
+    "image": "https://plus.unsplash.com/premium_photo-1669992229748-f22bf0475035?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "goto": "/valentines_day"
+  },
+  {
+    "date": "2024-03-17",
+    "id": "3",
+    "eventName": "St. Patrick's Day",
+    "image": "https://example.com/st_patricks_day.jpg",
+    "goto": "/st_patricks_day"
+  },
+  {
+    "date": "2024-04-22",
+    "id": "4",
+    "eventName": "Earth Day",
+    "image": "https://example.com/earth_day.jpg",
+    "goto": "/earth_day"
+  },
+  {
+    "date": "2024-05-01",
+    "id": "5",
+    "eventName": "Labour Day",
+    "image": "https://example.com/labour_day.jpg",
+    "goto": "/labour_day"
+  },
+  {
+    "date": "2024-07-04",
+    "id": "6",
+    "eventName": "Independence Day",
+    "image": "https://example.com/independence_day.jpg",
+    "goto": "/independence_day"
+  },
+  {
+    "date": "2024-10-31",
+    "id": "7",
+    "eventName": "Halloween",
+    "image": "https://example.com/halloween.jpg",
+    "goto": "/halloween"
+  },
+  {
+    "date": "2024-11-11",
+    "id": "8",
+    "eventName": "Remembrance Day",
+    "image": "https://example.com/remembrance_day.jpg",
+    "goto": "/remembrance_day"
+  },
+  {
+    "date": "2024-12-25",
+    "id": "9",
+    "eventName": "Christmas",
+    "image": "https://example.com/christmas.jpg",
+    "goto": "/christmas"
+  },
+  {
+    "date": "2024-02-02",
+    "id": "10",
+    "eventName": "Groundhog Day",
+    "image": "https://example.com/groundhog_day.jpg",
+    "goto": "/groundhog_day"
+  },
+  {
+    "date": "2024-03-08",
+    "id": "11",
+    "eventName": "International Women's Day",
+    "image": "https://example.com/international_womens_day.jpg",
+    "goto": "/international_womens_day"
+  },
+  {
+    "date": "2024-04-01",
+    "id": "12",
+    "eventName": "April Fools' Day",
+    "image": "https://example.com/april_fools_day.jpg",
+    "goto": "/april_fools_day"
+  },
+  {
+    "date": "2024-06-21",
+    "id": "13",
+    "eventName": "Summer Solstice",
+    "image": "https://example.com/summer_solstice.jpg",
+    "goto": "/summer_solstice"
+  },
+  {
+    "date": "2024-09-19",
+    "id": "14",
+    "eventName": "Talk Like a Pirate Day",
+    "image": "https://example.com/talk_like_a_pirate_day.jpg",
+    "goto": "/talk_like_a_pirate_day"
+  },
+  {
+    "date": "2024-11-01",
+    "id": "15",
+    "eventName": "All Saints' Day",
+    "image": "https://example.com/all_saints_day.jpg",
+    "goto": "/all_saints_day"
+  },
+  {
+    "date": "2024-12-31",
+    "id": "16",
+    "eventName": "New Year's Eve",
+    "image": "https://example.com/new_years_eve.jpg",
+    "goto": "/new_years_eve"
+  },
+  {
+    "date": "2024-01-06",
+    "id": "17",
+    "eventName": "Epiphany",
+    "image": "https://example.com/epiphany.jpg",
+    "goto": "/epiphany"
+  },
+  {
+    "date": "2024-03-20",
+    "id": "18",
+    "eventName": "Spring Equinox",
+    "image": "https://example.com/spring_equinox.jpg",
+    "goto": "/spring_equinox"
+  },
+  {
+    "date": "2024-06-05",
+    "id": "19",
+    "eventName": "World Environment Day",
+    "image": "https://example.com/world_environment_day.jpg",
+    "goto": "/world_environment_day"
+  },
+  {
+    "date": "2024-09-21",
+    "id": "20",
+    "eventName": "International Day of Peace",
+    "image": "https://example.com/international_day_of_peace.jpg",
+    "goto": "/international_day_of_peace"
+  }
+]
