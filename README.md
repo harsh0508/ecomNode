@@ -13,6 +13,6 @@ To clone frontend visit https://github.com/harsh0508/ecom
 5. Run the local server on NGROk. 
 6. Run the frontend repo .
 
-## I Will upload backend to GCP soon :)
+## I Will deploy backend to GCP soon :)
 
 
